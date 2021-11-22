@@ -1,0 +1,168 @@
+.contact_page {
+  background-image:url("blinding_lights.jpg");
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.navbar {
+    font-family: Lato;
+    font-size:16px;
+  }
+   
+  .navbar li a, .navbar{
+    color:white !important;
+  }
+  
+  .navbar-brand {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+    color: white !important;
+    font-size: 25px !important;
+  }
+  
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+      color:black !important;
+      background-color:white !important;
+
+      
+  }
+
+  .logo {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  
+  .logo ul {
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .logo ul li a {
+      color:white;
+      font-family: Impact;
+      font-size: 100px;
+      position:static;
+      letter-spacing: 5px;
+      text-decoration:none;
+      width: 100%;
+    }
+
+.contact {
+  background-color: black;
+  width: 350px;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 100px;
+  border-style: groove;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact h1 {
+  color: black;
+  font-family: Lato;
+  font-weight:bold;
+  background-color: white;
+  width: fit-content;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact label {
+  color: white;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.contact input {
+  width: 300px;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.contact button {
+  background-color: white;
+  color: black;
+  width: 300px;
+  padding: 5px;
+  font-size: 20px;
+}
+
+.apple, .spotify, .youtube, .twitter, .instagram, .facebook {
+  float: right;
+  width: 60px;
+  padding: 5px;
+  text-align: center;
+  }
+
+@media(max-width: 768px) {
+  .logo {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+  }
+  .logo ul li {
+    text-align: center;
+  }
+  
+  .logo ul li a {
+      font-family: Impact;
+      font-size: 75px;
+      position:static;
+      letter-spacing: 5px;
+      text-decoration:none;
+      width: 100%;
+    }
+    .contact_page ul li{
+      float:none;
+      clear: both;
+      text-align: center;
+      }
+    .contact, .contact h1, .contact label, .contact input, .contact textarea .contact button {
+      width: 70%;
+    }
+    .apple, .spotify, .youtube, .twitter, .instagram, .facebook {
+      float: left;
+      width: 16.66%;
+      padding: 5px;
+      text-align: center; }
+}
+
+@media(max-width: 600px) {
+  .logo {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+  }
+  .logo ul li {
+    text-align: center;
+  }
+  .logo ul li a {
+      color:white;
+      font-family: Impact;
+      font-size: 50px;
+      position:static;
+      letter-spacing: 5px;
+      text-decoration:none;
+    }
+    .contact_page ul li{
+      float:none;
+      clear: both;
+      text-align: center;
+      }
+      .contact, .contact h1, .contact label, .contact input, .contact textarea, .contact button {
+        width: 80%;
+      }
+  .apple, .spotify, .youtube, .twitter, .instagram, .facebook {
+    float: left;
+    width: 16.66%;
+    padding: 5px;
+    text-align: center; }
+}
