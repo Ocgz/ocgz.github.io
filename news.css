@@ -1,0 +1,316 @@
+.news_page {
+  background-image:url("weeknd.jpg");
+  background-position: 0px 0px;
+  background-size:cover;
+  background-repeat:repeat;
+  background-attachment: fixed;
+}
+
+.logo {
+  margin-top: 50px;
+  margin-bottom: 75px;
+  text-align: center;
+}
+
+.logo ul {
+  list-style-type: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo ul li a {
+    color:white;
+    font-family: Impact;
+    font-size: 100px;
+    position:static;
+    letter-spacing: 5px;
+    text-decoration:none;
+    width: 100%;
+  }
+
+
+/* This is for the navigation bar */
+
+.navbar {
+  font-family: Lato;
+  font-size:16px;
+}
+
+.navbar li a, .navbar{
+  color:white !important;
+}
+.navbar-brand {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+  color: white !important;
+  font-size: 25px !important;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color:black !important;
+    background-color:white !important;
+  }
+/* CSS ends here for navigation bar */
+
+.background, .albums h1 {
+    clear: both;
+    color: white;
+    font-family: Impact;
+    font-size: 45px;
+    text-align:center;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: underline;
+    width: 100%;
+    letter-spacing: 3px;
+}
+
+.weeknd1 {
+  float: left;
+  clear: left;
+  width: 50%;
+  text-align: right;
+}
+
+.weeknd1 img {
+  width: 230px;
+}
+
+.weeknd_info {
+  float: left;
+  clear: right;
+  width: 50%;
+  text-align: left;
+}
+
+.weeknd_info p {
+  background-color: black;
+  color:white;
+  font-family:Lato;
+  font-size: 20px;
+  font-weight: bold;
+  text-align:left;
+  margin: 30px;
+  width: fit-content;
+  padding: 10px;
+  border-style: groove;
+}
+
+.albums ul li {
+  background-color: black;
+  list-style-type: none;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-family: Lato;
+  font-size: 20px;
+  width: 280px;
+  border-style: groove;
+}
+
+.albums ul {
+  padding-left: 0px;
+}
+
+.albums a {
+    color:white;
+    font-size:20px;
+    font-weight:bold;
+    text-transform:uppercase;
+    text-align: center;
+}
+
+.albums a:hover {
+  text-decoration: none;
+  background-color: white;
+  color:black;
+}
+
+.latest-news-title h1 {
+  color:white;
+  text-align: left;
+  position:static;
+  font-family:Impact;
+  margin-left: 3%;
+  margin-top: 5%;
+  text-decoration: underline;
+  width:fit-content;
+  letter-spacing: 3px;
+}
+
+.slider {
+  margin-bottom: 50px;
+}
+
+.slider img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
+  height: auto;
+}
+
+.slider a{
+  width: 30%;
+  height: auto;
+}
+.slider h3 {
+  margin-top: 5px;
+}
+
+.carousel-caption {
+  margin-left: auto;
+  margin-right: auto;
+  width:auto;
+  height:auto;
+  font-family: Georgia;
+}
+
+.carousel-indicators {
+  width: fit-content;
+}
+
+.timeline {
+  color:white;
+  width: fit-content;
+  font-size: 20px;
+  font-family:Impact;
+  margin-top: 20px;
+  text-decoration: underline;
+  letter-spacing: 2px;
+}
+
+.timeline {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* This is for the social media icons and links at the bottom right */
+
+.apple, .spotify, .youtube, .twitter, .instagram, .facebook {
+  float: right;
+  width: 60px;
+  padding: 5px;
+  text-align: center;
+}
+/* CSS ends here for the icons */
+
+@media(max-width: 768px) {
+  .logo {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+  }
+  .logo ul li {
+    text-align: center;
+  }
+  
+  .logo ul li a {
+      font-family: Impact;
+      font-size: 75px;
+      position:static;
+      letter-spacing: 5px;
+      text-decoration:none;
+      width: 100%;
+    }
+    .news_page ul li{
+      float:none;
+      clear: both;
+      text-align: center;
+      }
+
+  .weeknd1 {
+    width: 100%;
+    float:none;
+    clear: both;
+    text-align: center;
+    }
+
+  .weeknd1 img {
+    width: 35%;
+    }
+
+
+  .weeknd_info {
+    width: 100%;
+    float:none;
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    }
+
+  .weeknd_info p {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
+  .apple, .spotify, .youtube, .twitter, .instagram, .facebook {
+    float: left;
+    width: 16.66%;
+    padding: 5px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .logo {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+  }
+  .logo ul li {
+    text-align: center;
+  }
+  
+  .logo ul li a {
+      color:white;
+      font-family: Impact;
+      font-size: 50px;
+      position:static;
+      letter-spacing: 5px;
+      text-decoration:none;
+    }
+
+    .news_page ul li{
+      float:none;
+      clear: both;
+      text-align: center;
+      }
+
+      .weeknd1 {
+        width: 100%;
+        float:none;
+        clear: both;
+        text-align: center;
+        }
+    
+      .weeknd1 img {
+        width: 50%;
+        }
+    
+    
+      .weeknd_info {
+        width: 100%;
+        float:none;
+        clear: both;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        }
+    
+      .weeknd_info p {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+      }
+
+      .apple, .spotify, .youtube, .twitter, .instagram, .facebook {
+        float: left;
+        width: 16.66%;
+        padding: 5px;
+        text-align: center;
+      }
+}
