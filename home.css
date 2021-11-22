@@ -1,0 +1,385 @@
+.home_page {
+  background-image: url("home1.gif");
+  background-position: center;
+  background-size:contain;
+  background-repeat:repeat;
+  background-attachment: fixed;
+  }
+  
+  .navbar {
+    font-family: Lato;
+    font-size:16px;
+  }
+   
+  .navbar li a, .navbar{
+    color:white !important;
+  }
+  
+  .navbar-brand {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+    color: white !important;
+    font-size: 25px !important;
+  }
+  
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+      color:black !important;
+      background-color:white !important;
+  }
+  
+  .logo {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+  }
+  
+  .logo ul {
+    list-style-type: none;
+  }
+
+  .logo ul li {
+    text-align: center;
+  }
+  
+  .logo ul li a {
+      color:white;
+      font-family: Impact;
+      font-size: 100px;
+      position:static;
+      letter-spacing: 5px;
+      text-decoration:none;
+    }
+
+.music_video iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.music_video h3 {
+    color: white;
+    font-family: Lato;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: fit-content;
+}
+
+#spotify_music {
+  float: left;
+  clear: left;
+  margin-left: 40%;
+  margin-right: auto;
+}
+#apple_music {
+  float: right;
+  clear: right;
+  margin-left: auto;
+  margin-right: 40%;
+}
+
+.titles h1 {
+    color: white;
+    font-family: Impact;
+    font-size: 45px;
+    text-decoration: underline;
+    letter-spacing: 3px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    clear: both;
+}
+
+.album1 {
+    float: left;
+    clear: right;
+    margin-left: 250px;
+    margin-right: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width:fit-content;
+}
+.album2 {
+  float: left;
+  clear: right;
+  margin-left: 50px;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width:fit-content;
+} 
+.album3 {
+  float: left;
+  clear: right;
+  margin-left: 50px;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width:fit-content;
+}
+
+.album4 {
+  float: left;
+  clear: right;
+  margin-left: 50px;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width:fit-content;
+}
+
+.album5 {
+  float: left;
+  clear: left;
+  margin-left: 250px;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width:fit-content;
+}
+
+.album6 {
+  float: left;
+  clear: right;
+  margin-left: 50px;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width:fit-content;
+}
+
+.album7 {
+  float: left;
+  clear: right;
+  margin-left: 50px;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width:fit-content;
+}
+
+.album8 {
+  float: left;
+  clear: right;
+  margin-left: 50px;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width:fit-content;
+}
+
+#spotify_music, #apple_music, .album1 img, .album2 img, .album3 img, .album4 img, .album5 img, .album6 img, .album7 img, .album8 img {
+    padding: 1px;
+}
+
+#spotify_link, #apple_link {
+  margin-left: 15%;
+}
+
+#spotify_music:hover, #apple_music:hover, .album1 img:hover, .album2 img:hover, .album3 img:hover, .album4 img:hover, .album5 img:hover, .album6 img:hover, .album7 img:hover, .album8 img:hover {
+    background-color: white;
+}
+.album1 h4, .album2 h4, .album3 h4, .album4 h5, .album5 h4, .album6 h4, .album7 h4, .album8 h4 {
+    color: white;
+    font-family: Lato;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+.album1 a:hover, .album2 a:hover, .album3 a:hover, .album4 a:hover, .album5 a:hover, .album6 a:hover, .album7 a:hover, .album8 a:hover  {
+  text-decoration: none;
+}
+
+.the_news1, .the_news2 {
+  float: left;
+  width: 50%;
+}
+
+.the_news1 img, .the_news2 img {
+  width: 60%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.the_news1 h3, .the_news1 p, .the_news2 h3, .the_news2 p {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    width: 350px;
+    text-decoration: none;
+}
+.the_news1 a:hover, .the_news2 a:hover {
+  text-decoration: none;
+}
+
+.the_news1 a, .the_news2 a {
+ width: 100px;
+}
+
+.apple, .spotify, .youtube, .twitter, .instagram, .facebook {
+  float: right;
+  width: 60px;
+  padding: 5px;
+  text-align: center;
+  }
+
+
+  @media(max-width: 768px) {
+    .logo {
+      margin-top: 50px;
+      margin-bottom: 50px;
+      width: 100%;
+    }
+    .logo ul li {
+      text-align: center;
+    }
+    
+    .logo ul li a {
+        font-family: Impact;
+        font-size: 75px;
+        position:static;
+        letter-spacing: 5px;
+        text-decoration:none;
+        width: 100%;
+      }
+      .home_page ul li{
+        float:none;
+        clear: both;
+        text-align: center;
+        }
+      iframe {
+        width: 75%;
+      }
+    #spotify_music {
+      float: left;
+      margin-left: 30%;
+      margin-right: auto;
+    }
+    #apple_music {
+      float: right;
+      margin-left: auto;
+      margin-right: 30%;
+    }
+    
+    .album1, .album2, .album3, .album4, .album5, .album6, .album7, .album8 {
+      float: none;
+      clear: both;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .titles h1 {
+      float: none;
+      clear: both;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+      text-align: center;
+    }
+  
+    .the_news1, .the_news2 {
+      float: none;
+      clear: both;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+  .the_news1 img, .the_news2 img {
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .the_news h3, .the_news p, .the_news a {
+    text-align: center;
+    width: 300px;
+  }
+    .apple, .spotify, .youtube, .twitter, .instagram, .facebook {
+      float: left;
+      width: 16.66%;
+      padding: 5px;
+      text-align: center;
+    }
+  }
+
+  @media(max-width: 600px) {
+    .logo {
+      margin-top: 50px;
+      margin-bottom: 50px;
+      width: 100%;
+    }
+    .logo ul li {
+      text-align: center;
+    }
+    
+    .logo ul li a {
+        color:white;
+        font-family: Impact;
+        font-size: 50px;
+        position:static;
+        letter-spacing: 5px;
+        text-decoration:none;
+      }
+      .home_page ul li{
+        float:none;
+        clear: both;
+        text-align: center;
+        }
+    
+      iframe {
+        width: 90%;}
+
+    #spotify_music {
+      float: left;
+      margin-left: 30%;
+      margin-right: auto;
+    }
+    #apple_music {
+      float: right;
+      margin-left: auto;
+      margin-right: 30%;
+    }
+    
+    .album1, .album2, .album3, .album4, .album5, .album6, .album7, .album8 {
+      float: none;
+      clear: both;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .titles h1 {
+      float: none;
+      clear: both;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+      text-align: center;
+    }
+  
+    .the_news1, .the_news2 {
+      float: none;
+      clear: both;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+  .the_news1 img, .the_news2 img {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .the_news1 h3, .the_news1 p, .the_news1 a, .the_news2 h3, .the_news2 p, .the_news2 a {
+    text-align: center;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+    .apple, .spotify, .youtube, .twitter, .instagram, .facebook {
+      float: left;
+      width: 16.66%;
+      padding: 5px;
+      text-align: center;
+    }
+  }
