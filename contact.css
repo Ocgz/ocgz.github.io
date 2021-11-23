@@ -1,4 +1,4 @@
-.contact_page {
+.contact_page, .purchase_page {
   background-image:url("blinding_lights.jpg");
   background-position: left;
   background-size: cover;
@@ -24,8 +24,6 @@
   .navbar-nav li a:hover, .navbar-nav li.active a {
       color:black !important;
       background-color:white !important;
-
-      
   }
 
   .logo {
@@ -61,6 +59,17 @@
   margin-right: auto;
 }
 
+.purchase {
+  background-color: gray;
+  width: 350px;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 100px;
+  border-style: groove;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .contact h1 {
   color: black;
   font-family: Lato;
@@ -72,19 +81,41 @@
   margin-right: auto;
 }
 
-.contact label {
+.purchase h1 {
+  color: black;
+  font-family: Lato;
+  font-weight:bold;
+  width: fit-content;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact label{
   color: white;
   font-family: Lato;
   font-size: 20px;
   font-weight: bold;
   text-align: center;
 }
+.purchase label {
+  color: black;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
 
-.contact input {
+.contact input, .purchase input {
   width: 300px;
   padding: 10px;
   box-sizing: border-box;
   margin-bottom: 10px;
+}
+
+#venue_options {
+  padding: 10px;
+  font-size: 15px;
 }
 
 .contact button {
@@ -93,6 +124,20 @@
   width: 300px;
   padding: 5px;
   font-size: 20px;
+}
+
+.purchase button {
+  background-color: green;
+  color: white;
+  width: 300px;
+  padding: 5px;
+  font-size: 20px;
+}
+
+#changed_mind {
+  margin-top: 30px;
+  color: black;
+  font-weight: bold;
 }
 
 .apple, .spotify, .youtube, .twitter, .instagram, .facebook {
@@ -120,12 +165,12 @@
       text-decoration:none;
       width: 100%;
     }
-    .contact_page ul li{
+    .contact_page ul li, .purchase_page ul li{
       float:none;
       clear: both;
       text-align: center;
       }
-    .contact, .contact h1, .contact label, .contact input, .contact textarea .contact button {
+    .contact, .contact h1, .contact label, .contact input, .contact textarea .contact button, .purchase, .purchase h1, .purchase label, .purchase input, .purchase select, .purchase button {
       width: 70%;
     }
     .apple, .spotify, .youtube, .twitter, .instagram, .facebook {
@@ -152,12 +197,12 @@
       letter-spacing: 5px;
       text-decoration:none;
     }
-    .contact_page ul li{
+    .contact_page ul li, .purchase_page ul li{
       float:none;
       clear: both;
       text-align: center;
       }
-      .contact, .contact h1, .contact label, .contact input, .contact textarea, .contact button {
+      .contact, .contact h1, .contact label, .contact input, .contact textarea, .contact button, .purchase, .purchase h1, .purchase label, .purchase input, .purchase select, .purchase button {
         width: 80%;
       }
   .apple, .spotify, .youtube, .twitter, .instagram, .facebook {
