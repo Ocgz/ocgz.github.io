@@ -18,7 +18,7 @@ function myFunction()
 
     if ( value1 >= 1 )
     {
-        result.innerHTML = "<h4>Your total + tax for this purchase is: $" + total2 + " and the tax is: $" + taxx + "</h4>";
+        result.innerHTML = "<h4>Your total + tax for " + value1 + " ticket is $" + total2 + " and the estimated tax will be: $" + taxx + "</h4>";
     } // end if
 } // end myFunction
 
