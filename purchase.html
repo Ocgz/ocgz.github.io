@@ -69,11 +69,17 @@ href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
               <input type = "email" name = "email" placeholder = "abc123@gmail.com" required>
               <br>
           <label>Address:</label><br>
-          <input name = "address" type = "text" placeholder = "123 Hello World San Jose CA, 9123" required>
+          <input name = "address" type = "text" placeholder = "123 Hello World San Jose CA, 12345" required>
               <br>
 
         <label>Card Number:</label><br>
-            <input type = "number" name = "card_number" placeholder = "xxxx xxxx xxxx xxxx" required>
+            <input type = "number" name = "card_number" placeholder = "1111-2222-3333-4444" maxlength = "16" required>
+            
+        <label>Expiration Date:</label><br>
+            <input type = "number" name = "expiry_date" placeholder = "12/30" maxlength = "5" required>
+
+        <label>CVC / CVV:</label><br>
+            <input type = "number" name = "cvc_cvv" placeholder = "123" maxlength = "3" required>
   
           <label>Choose a Venue:</label>
           <select id = "venue_options" name = "venue">
