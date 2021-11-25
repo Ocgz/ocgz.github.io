@@ -92,79 +92,87 @@
 .album1 {
     float: left;
     clear: right;
-    margin-left: 250px;
-    margin-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 40px;
     margin-bottom: 40px;
-    width:fit-content;
+    width: 25%;
+    text-align: center;
 }
 .album2 {
   float: left;
   clear: right;
-  margin-left: 50px;
+  margin-left: auto;
   margin-right: auto;
   margin-top: 40px;
   margin-bottom: 40px;
-  width:fit-content;
+  width: 25%;
+  text-align: center;
 } 
 .album3 {
   float: left;
   clear: right;
-  margin-left: 50px;
+  margin-left: auto;
   margin-right: auto;
   margin-top: 40px;
   margin-bottom: 40px;
-  width:fit-content;
+  width: 25%;
+  text-align: center;
 }
 
 .album4 {
   float: left;
   clear: right;
-  margin-left: 50px;
+  margin-left: auto;
   margin-right: auto;
   margin-top: 40px;
   margin-bottom: 40px;
-  width:fit-content;
+  width: 25%;
+  text-align: center;
 }
 
 .album5 {
   float: left;
   clear: left;
-  margin-left: 250px;
+  margin-left: auto;
   margin-right: auto;
   margin-top: 40px;
   margin-bottom: 40px;
-  width:fit-content;
+  width: 25%;
+  text-align: center;
 }
 
 .album6 {
   float: left;
   clear: right;
-  margin-left: 50px;
+  margin-left: auto;
   margin-right: auto;
   margin-top: 40px;
   margin-bottom: 40px;
-  width:fit-content;
+  width: 25%;
+  text-align: center;
 }
 
 .album7 {
   float: left;
   clear: right;
-  margin-left: 50px;
+  margin-left: auto;
   margin-right: auto;
   margin-top: 40px;
   margin-bottom: 40px;
-  width:fit-content;
+  width: 25%;
+  text-align: center;
 }
 
 .album8 {
   float: left;
   clear: right;
-  margin-left: 50px;
+  margin-left: auto;
   margin-right: auto;
   margin-top: 40px;
   margin-bottom: 40px;
-  width:fit-content;
+  width: 25%;
+  text-align: center;
 }
 
 #spotify_music, #apple_music, .album1 img, .album2 img, .album3 img, .album4 img, .album5 img, .album6 img, .album7 img, .album8 img {
@@ -173,12 +181,15 @@
 
 #spotify_link, #apple_link {
   margin-left: 15%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #spotify_music:hover, #apple_music:hover, .album1 img:hover, .album2 img:hover, .album3 img:hover, .album4 img:hover, .album5 img:hover, .album6 img:hover, .album7 img:hover, .album8 img:hover {
     background-color: white;
 }
-.album1 h4, .album2 h4, .album3 h4, .album4 h5, .album5 h4, .album6 h4, .album7 h4, .album8 h4 {
+.album1 h4, .album2 h4, .album3 h4, .album4 h4, .album5 h4, .album6 h4, .album7 h4, .album8 h4 {
     color: white;
     font-family: Lato;
     text-align: center;
@@ -235,6 +246,9 @@
       margin-bottom: 50px;
       width: 100%;
     }
+    .logo ul {
+      padding: 0px;
+    }
     .logo ul li {
       text-align: center;
     }
@@ -271,6 +285,7 @@
       clear: both;
       margin-left: auto;
       margin-right: auto;
+      width: 100%;
     }
     .titles h1 {
       float: none;
