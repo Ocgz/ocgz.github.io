@@ -80,13 +80,6 @@
 }
 
 
-/* STOPPED HERE */
-
-
-
-
-
-
 .albums_singles {
   float: left;
   clear: right;
@@ -174,7 +167,7 @@
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  width: 100px;
+  width: fit-content;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
