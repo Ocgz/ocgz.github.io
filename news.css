@@ -28,9 +28,6 @@
     width: 100%;
   }
 
-
-/* This is for the navigation bar */
-
 .navbar {
   font-family: Lato;
   font-size:16px;
@@ -48,7 +45,6 @@
     color:black !important;
     background-color:white !important;
   }
-/* CSS ends here for navigation bar */
 
 .background, .albums h1 {
     clear: both;
@@ -184,7 +180,6 @@
   margin-right: auto;
 }
 
-/* This is for the social media icons and links at the bottom right */
 
 .apple, .spotify, .youtube, .twitter, .instagram, .facebook {
   float: right;
@@ -192,7 +187,6 @@
   padding: 5px;
   text-align: center;
 }
-/* CSS ends here for the icons */
 
 @media(max-width: 768px) {
   .logo {
@@ -200,6 +194,11 @@
     margin-bottom: 50px;
     width: 100%;
   }
+  
+  .logo ul {
+    padding: 0px;
+    }
+  
   .logo ul li {
     text-align: center;
   }
