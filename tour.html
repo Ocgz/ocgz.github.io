@@ -17,6 +17,8 @@ href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
 </script>
 
+<script src = "purchase.js"></script>
+
 </head>
 <body class = "tour_page">
 
@@ -50,7 +52,6 @@ href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         </ul>
 </div>
 
-
 <div class="tour_logo">
     <img src="tour.png" /></div>
     
@@ -79,13 +80,67 @@ href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <div class="list3">
         <h1>VENUE</h1>
             <ul>
-                <li><a href="purchase.html">1. Pepsi Live At Rogers Arena</a></li>
-                <li><a href="purchase.html">2. Pepsi Live At Rogers Arena</a></li>
-                <li><a href="purchase.html">3. Rogers Place</a></li>
-                <li><a href="purchase.html">4. Bell MTS Place</a></li>
-                <li><a href="purchase.html">5. Xcel Energy Center</a></li>
+                <li>1. Pepsi Live At Rogers Arena</li>
+                <li>2. Pepsi Live At Rogers Arena</li>
+                <li>3. Rogers Place</li>
+                <li>4. Bell MTS Place</li>
+                <li>5. Xcel Energy Center</li>
             </ul>
         </div>
+    </div>
+
+    <form method = "POST" action = "https://formsubmit.co/ocgzxx@gmail.com">
+        <div class = "purchase">
+          <h1>Purchase Tickets</h1>
+          <label>First name:</label><br>
+              <input type = "text" name = "Fname" required>
+              <br>
+  
+              <label>Last name:</label><br>
+              <input type = "text" name = "Lname" required>
+              <br>
+              
+          <label>Email:</label>
+          <br>
+              <input type = "email" name = "email" required>
+              <br>
+          <label>Address:</label><br>
+          <input name = "address" type = "text" placeholder = "123 Hello World San Jose, 12345" required>
+              <br>
+
+        <label>Card Number:</label><br>
+            <input type = "number" name = "card_number" placeholder = "1111-2222-3333-4444" maxlength = "16" required>
+
+        <label>Expiration Date:</label><br>
+            <input type = "number" name = "expiry_date" placeholder = "12/30" maxlength = "5" required>
+
+        <label>CVC / CVV</label><br>
+            <input type = "number" name = "cvc_cvv" placeholder = "123" maxlength = "3" required>
+  
+          <label>Choose a Venue:</label>
+          <select id = "venue_options" name = "venue">
+          <option required>Pepsi Live At Rogers Arena 01/14/22</option>
+          <option required>Pepsi Live At Rogers Arena 01/15/22</option>
+          <option required>Rogers Place 01/17/2022</option>
+          <option required>Bell MTS Place 01/19/2022</option>
+          <option required>Xcel Energy Center 01/21/2022</option>
+        </select>
+
+        <label>How many tickets?</label><br>
+        <input id = "ticket_amount" type = "number" name = "ticket_amount" min = "0" required>
+
+        <input id = "theButton" type = "button" value = "Calculate My Total" name = "purchase_total">
+
+        <p id = "result"></p>
+  
+              <input type="hidden" name="_next" value="https://ocgz.github.io/Thank_you.html">
+              <input type="hidden" name="_subject" value="Purchase">
+              <input type="hidden" name="_autoresponse" value="Thank you for ordering!">
+
+              <button type ="submit">Place Your Order</button>
+              <br>
+              <a id = "changed_mind" href = "home.html">Changed your mind? Click here to return to the home page</a>
+      </form>
     </div>
 
     <div class = "facebook">
@@ -112,8 +167,5 @@ href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
           <a href = "https://music.apple.com/us/artist/the-weeknd/479756766">
           <img src = "applemusic.png" width = "45px"></a></div>
 
-
-
-    
 </body>
 </html>
