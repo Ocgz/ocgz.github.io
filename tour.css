@@ -1,0 +1,345 @@
+.tour_page {
+  background-color: #000;
+  }
+  
+  .navbar {
+    font-family: Lato;
+    font-size:16px;
+  }
+   
+  .navbar li a, .navbar{
+    color:white !important;
+  }
+  
+  .navbar-brand {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+    color: white !important;
+    font-size: 25px !important;
+  }
+  
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+      color:black !important;
+      background-color:white !important;
+  }
+  
+  .logo {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .logo ul {
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .logo ul li a {
+      color:white;
+      font-family: Impact;
+      font-size: 100px;
+      position:static;
+      letter-spacing: 5px;
+      text-decoration:none;
+      width: 100%;
+    }
+  
+  .logo {
+    margin-top:50px;
+  }
+  
+  .tour_logo img {
+    width: 100%;
+  }
+  
+  .list1, .list2, .list3 {
+    float: left;
+    clear: right;
+    width: 33.33%;
+    margin-bottom: 50px;
+  }
+  
+  .list1 h1, .list2 h1, .list3 h1 {
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: underline;
+    text-align: center;
+  }
+  .list1 ul, .list2 ul, .list3 ul {
+    color: white;
+    font-family: Lato;
+    font-size: 20px;
+    list-style-type: none;
+    padding-left: 0px;
+  }
+  
+  .list1 li, .list2 li, .list3 li {
+    text-align: center;
+    color: white;
+     width: 100%;
+  }
+  
+  .list3 li a {
+    color: white;
+  }
+
+  .purchase {
+    clear: left;
+    background-color: gray;
+    width: 550px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 100px;
+    border-style: groove;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .purchase h1 {
+    color: black;
+    font-family: Lato;
+    font-weight:bold;
+    width: fit-content;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .purchase label {
+    color: black;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .purchase input {
+    width: 450px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px; 
+  }
+
+  #venue_options {
+    padding: 10px;
+    font-size: 15px;
+    width: 450px;
+  }
+
+  .purchase button {
+    background-color: green;
+    color: white;
+    width: 300px;
+    padding: 5px;
+    font-size: 20px;
+  }
+  
+  #changed_mind {
+    margin-top: 30px;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .apple, .spotify, .youtube, .twitter, .instagram, .facebook {
+    float: right;
+    width: 60px;
+    padding: 5px;
+    text-align: center;
+  }
+  
+  @media(max-width: 768px) {
+    .logo {
+      margin-top: 50px;
+      margin-bottom: 50px;
+      width: 100%;
+    }
+    .logo ul {
+      padding: 0px;
+    }
+
+    .logo ul li {
+      text-align: center;
+    }
+    
+    .logo ul li a {
+      font-family: Impact;
+      font-size: 75px;
+      position:static;
+      letter-spacing: 5px;
+      text-decoration:none;
+      width: 100%;
+      }
+    .tour_page ul li{
+      float:none;
+      clear: both;
+      text-align: center;
+      }
+  
+    .tour_logo {
+      width: 100%;
+    }
+  
+    .list1, .list2, .list3 {
+      float: none;
+      clear: both;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+      margin-bottom: 50px;
+    }
+          
+    .list1 h1, .list2 h1, .list3 h1 {
+      color: white;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      text-decoration: underline;
+      text-align: center;
+    }
+    .list1 ul, .list2 ul, .list3 ul {
+      color: white;
+      font-family: Lato;
+      font-size: 20px;
+      list-style-type: none;
+    }
+          
+    .list1 li, .list2 li, .list3 li {
+      margin-left: auto;
+      margin-right: auto;
+      color: white;
+    }
+          
+    .list3 li a {
+      color: white;
+          }
+  
+    .apple, .spotify, .youtube, .twitter, .instagram, .facebook {
+      float: left;
+      width: 16.66%;
+      padding: 5px;
+      text-align: center;
+    }
+  }
+  @media(max-width: 600px) {
+    .logo {
+      margin-top: 50px;
+      margin-bottom: 50px;
+      width: 100%;
+    }
+    .logo ul li {
+      text-align: center;
+    }
+    
+    .logo ul li a {
+      color:white;
+      font-family: Impact;
+      font-size: 50px;
+      position:static;
+      letter-spacing: 5px;
+      text-decoration:none;
+      }
+  
+    .tour_page ul li{
+      float:none;
+      clear: both;
+      text-align: center;
+    }
+      
+    .tour_logo {
+      width: 100%;
+    }
+  
+    .list1, .list2, .list3 {
+      float: none;
+      clear: both;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+      margin-bottom: 50px;
+      }
+            
+    .list1 h1, .list2 h1, .list3 h1 {
+      color: white;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      text-decoration: underline;
+      text-align: center;
+      }
+    
+    .list1 ul, .list2 ul, .list3 ul {
+      color: white;
+      font-family: Lato;
+      font-size: 20px;
+      list-style-type: none;
+      }
+            
+    .list1 li, .list2 li, .list3 li {
+      text-align: center;
+      color: white;
+      }
+            
+    .list3 li a {
+      color: white;
+      }
+
+      .purchase {
+        background-color: gray;
+        width: 350px;
+        padding: 20px;
+        text-align: center;
+        margin-bottom: 100px;
+        border-style: groove;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .purchase h1 {
+        color: black;
+        font-family: Lato;
+        font-weight:bold;
+        width: fit-content;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .purchase label {
+        color: black;
+        font-family: Lato;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+      }
+
+      .purchase input {
+        width: 300px;
+        padding: 10px;
+        box-sizing: border-box;
+        margin-bottom: 10px; 
+      }
+
+      #venue_options {
+        padding: 10px;
+        font-size: 15px;
+        width: 300px;
+      }
+
+      .purchase button {
+        background-color: green;
+        color: white;
+        width: 300px;
+        padding: 5px;
+        font-size: 20px;
+      }
+      
+      #changed_mind {
+        margin-top: 30px;
+        color: black;
+        font-weight: bold;
+      }
+    
+    .apple, .spotify, .youtube, .twitter, .instagram, .facebook {
+    float: left;
+    width: 16.66%;
+    padding: 5px;
+    text-align: center;
+    }
+  }
