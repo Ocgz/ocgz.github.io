@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Purchase Tickets</title>
+    <title>Purchase</title>
     <link rel="stylesheet" href="contact.css">
 <link rel="stylesheet"  
 href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -14,6 +14,9 @@ href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
 </script>
+
+<script src = "purchase.js"></script>
+
 </head>
 <body class = "purchase_page">
 
@@ -26,7 +29,7 @@ href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>                        
         </button>
-        <a class= "navbar-brand" href = "home.html">The Weeknd</a>
+        <a class= "navbar-brand" href = "">The Weeknd</a>
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
@@ -80,12 +83,18 @@ href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
           <option required>Bell MTS Place 01/19/2022</option>
           <option required>Xcel Energy Center 01/21/2022</option>
         </select>
+
+        <label>How many tickets?</label><br>
+        <input id = "ticket_amount" type = "number" name = "ticket_amount" required>
+
+        <input id = "theButton" type = "button" value = "Calculate My Total">
+
+        <p id = "result" name = "purchase_total"></p>
   
               <input type="hidden" name="_next" value="https://ocgz.github.io/Thank_you.html">
               <input type="hidden" name="_subject" value="Purchase">
               <input type="hidden" name="_autoresponse" value="Thank you for ordering!">
-              <br>
-              <br>
+
               <button type ="submit">Place Your Order</button>
               <br>
               <a id = "changed_mind" href = "home.html">Changed your mind? Click here to return to the home page</a>
