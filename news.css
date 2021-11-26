@@ -293,10 +293,11 @@
         clear: both;
         text-align: center;
         }
-    
-      .weeknd1 img {
+  
+        .weeknd1 img {
         width: 50%;
-        }
+        margin: 0px;
+      }
     
     
       .weeknd_info {
