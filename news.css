@@ -41,6 +41,7 @@
   color: white !important;
   font-size: 25px !important;
 }
+
 .navbar-nav li a:hover, .navbar-nav li.active a {
     color:black !important;
     background-color:white !important;
@@ -69,6 +70,7 @@
 
 .weeknd1 img {
   width: 230px;
+  margin-right: 20px;
 }
 
 .weeknd_info {
@@ -83,12 +85,15 @@
   color:white;
   font-family:Lato;
   font-size: 20px;
-  font-weight: bold;
   text-align:left;
-  margin: 20px;
+  margin-left: 20px;
   width: fit-content;
-  padding: 10px;
+  padding: 20px;
   border-style: groove;
+}
+
+.albums h1 {
+  padding-top: 50px;
 }
 
 .albums ul li {
@@ -155,9 +160,13 @@
 .carousel-caption {
   margin-left: auto;
   margin-right: auto;
-  width:auto;
-  height:auto;
-  font-family: Georgia;
+  width: 40%;
+  height: auto;
+  font-family: Lato;
+}
+
+.carousel-caption b {
+  background-color: black;
 }
 
 .carousel-indicators {
@@ -304,6 +313,16 @@
         margin-left: auto;
         margin-right: auto;
         width: 75%;
+      }
+
+      .latest-news-title h1 {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .carousel-caption b {
+        display: none;
       }
 
       .apple, .spotify, .youtube, .twitter, .instagram, .facebook {
