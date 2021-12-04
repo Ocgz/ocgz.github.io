@@ -105,17 +105,17 @@ href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
               <input type = "email" name = "email" required>
               <br>
           <label>Address:</label><br>
-          <input name = "address" type = "text" placeholder = "123 Hello World San Jose, 12345" required>
+          <input name = "address" type = "text" placeholder = "123 Hello World San Jose, CA 12345" required>
               <br>
 
         <label>Card Number:</label><br>
-            <input type = "number" name = "card_number" placeholder = "1111-2222-3333-4444" maxlength = "16" required>
+            <input type = "text" name = "card_number" placeholder = "1111-2222-3333-4444" maxlength = "16" size = "16" required>
 
         <label>Expiration Date:</label><br>
-            <input type = "number" name = "expiry_date" placeholder = "12/30" maxlength = "5" required>
+            <input type = "text" name = "expiry_date" placeholder = "12/30" maxlength = "4" size = "4" required>
 
         <label>CVC / CVV</label><br>
-            <input type = "number" name = "cvc_cvv" placeholder = "123" maxlength = "3" required>
+            <input type = "text" name = "cvc_cvv" placeholder = "123" maxlength = "3" size = "3" required>
   
           <label>Choose a Venue:</label>
           <select id = "venue_options" name = "venue">
@@ -126,7 +126,7 @@ href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
           <option required>Xcel Energy Center 01/21/2022</option>
         </select>
 
-        <label>How many tickets? Price: $100/ticket </label><br>
+        <label>How many tickets? (Price: $100/ticket)</label><br>
         <input id = "ticket_amount" type = "number" name = "ticket_amount" min = "0" required>
 
         <input id = "theButton" type = "button" value = "Calculate My Total" name = "purchase_total">
